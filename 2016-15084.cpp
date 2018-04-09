@@ -6,6 +6,7 @@
 using namespace std;
 
 void main() {	
+	
 		vector<int> v;
 		int num;
 		while (std::cin >> num) {
@@ -17,6 +18,6 @@ void main() {
 		cout << " ordered array" << endl;
 
 		for (auto i : v) {
-			cout << i <<" ";
+			cout << i  <<" ";
 		}
 }
